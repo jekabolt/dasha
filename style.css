@@ -22,6 +22,10 @@ h4 {
     color: #1BBC9B
 }
 
+html {
+    cursor: pointer
+}
+
 
 /*MOUNTAIN MEADOW*/
 
@@ -44,7 +48,7 @@ h4 {
     transition: 1s;
 }
 
-.card:hover .card:active {
+.card:active {
     transform: translate(-50%, -50%) perspective(2000px) rotate(15deg) scale(1.2);
     box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5), 0 10px 100px rgba(0, 0, 0, .5);
 }
@@ -95,11 +99,11 @@ h4 {
     max-height: 400px;
 }
 
-.card:hover .card:active .imgBox {
+.card:active .imgBox {
     transform: rotateY(-135deg);
 }
 
-.card:hover .card:active .bark {
+.card:active .bark {
     opacity: 1;
     transition: .6s;
     box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset;
