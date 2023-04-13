@@ -8,18 +8,14 @@
     <title>даша с днюхооой</title>
     <link rel="stylesheet" href="style.css">
     <script>
-        document.addEventListener('touchstart', function addtouchclass(e) { // first time user touches the screen
-            document.documentElement.classList.add('can-touch') // add "can-touch" class to document root using classList API
-            document.removeEventListener('touchstart', addtouchclass, false) // de-register touchstart event
-        }, false)
     </script>
 </head>
 
 <body>
-    <div class="card">
+    <div id="card" class="card">
         <div class="imgBox">
             <div class="bark"></div>
-            <img id="btnLeft" tabindex="0" src="https://files.grbpwr.com/zhuk_hb.jpg" />
+            <img tabindex="0" src="https://files.grbpwr.com/zhuk_hb.jpg" />
         </div>
         <div class="details">
             <h4 class="color1">Дорогая Даша,</h2>
